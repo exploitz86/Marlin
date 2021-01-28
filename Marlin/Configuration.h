@@ -992,9 +992,8 @@
  *     |    [-]    |
  *     O-- FRONT --+
  */
-//#define NOZZLE_TO_PROBE_OFFSET { 24, -47, -1.5 }
-//#define NOZZLE_TO_PROBE_OFFSET { 24, -47, -0.43 }     // BL Touch with printed no spring holder
-#define NOZZLE_TO_PROBE_OFFSET { -1.5, -34, -1.5 }      // BL Touch with printed center holder
+//#define NOZZLE_TO_PROBE_OFFSET { 24, -47, -1.5 }      // Stock BL Touch holder
+#define NOZZLE_TO_PROBE_OFFSET { -1.5, -34, -1.5 }      // Center BL Touch holder (https://www.thingiverse.com/thing:4564987)
 
 // Most probes should stay away from the edges of the bed, but
 // with NOZZLE_AS_PROBE this can be negative for a wider probing area.
