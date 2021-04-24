@@ -431,7 +431,7 @@
  * Define one or both of these to override the default 0-255 range.
  */
 #define FAN_MIN_PWM 80
-#define FAN_MAX_PWM 180 //3rd party fan power decrease
+//#define FAN_MAX_PWM 255
 
 /**
  * FAST PWM FAN Settings
@@ -712,7 +712,7 @@
    * differs, a mode set eeprom write will be completed at initialization.
    * Use the option below to force an eeprom write to a V3.1 probe regardless.
    */
-  //#define BLTOUCH_SET_5V_MODE
+  #define BLTOUCH_SET_5V_MODE
 
   /**
    * Safety: Activate if connecting a probe with an unknown voltage mode.
